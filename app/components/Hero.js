@@ -7,7 +7,7 @@ export default function Hero() {
     <section>
       <div className={styles.header}>
         <Image 
-          src="/WhatsApp Image 2025-11-04 at 10.21.48.jpeg"
+          src="/keith-profile.jpeg"
           alt="Keith Katale"
           width={120}
           height={120}

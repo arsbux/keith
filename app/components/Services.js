@@ -25,9 +25,8 @@ export default function Services() {
         <video 
           controls 
           className={styles.video}
-          poster="/video-thumbnail.jpg"
         >
-          <source src="/Thanks to @fiverr & especially to @keithkatale for helping me get this business off the ground. .mp4" type="video/mp4" />
+          <source src="/client-testimonial.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
