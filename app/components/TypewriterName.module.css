@@ -1,0 +1,31 @@
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 0;
+  letter-spacing: -0.02em;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Droid Sans Mono', 'Source Code Pro', monospace;
+  color: var(--accent);
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.prompt {
+  color: var(--accent);
+  margin-right: 8px;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #00ff41;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 36px;
+  }
+}

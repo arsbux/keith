@@ -1,0 +1,65 @@
+.tagline {
+  color: var(--text-dim);
+  font-size: 15px;
+  margin-bottom: 24px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.offer p {
+  color: var(--text-dim);
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.offer p svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.pricing {
+  margin-top: 32px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', 'Droid Sans Mono', 'Source Code Pro', monospace;
+}
+
+.pricing p {
+  color: var(--text-dim);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.testimonial {
+  margin-top: 32px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.video {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.cta {
+  margin-top: 32px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}

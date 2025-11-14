@@ -1,0 +1,30 @@
+.intro {
+  color: var(--text-dim);
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  color: var(--text-dim);
+  font-size: 16px;
+  padding: 12px 0;
+  padding-left: 28px;
+  position: relative;
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.list li svg {
+  position: absolute;
+  left: 0;
+  top: 14px;
+  color: #ef4444;
+  flex-shrink: 0;
+}

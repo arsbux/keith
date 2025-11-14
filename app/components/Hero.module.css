@@ -1,0 +1,62 @@
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.profilePhoto {
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+.hero {
+  font-size: 28px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.subhead {
+  font-size: 20px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.location {
+  font-size: 16px;
+  color: var(--text-dim);
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+.cta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .hero {
+    font-size: 20px;
+  }
+
+  .subhead {
+    font-size: 16px;
+  }
+}
