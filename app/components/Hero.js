@@ -1,18 +1,16 @@
 import styles from './Hero.module.css'
 import TypewriterName from './TypewriterName'
-import Image from 'next/image'
 
 export default function Hero() {
   return (
     <section>
       <div className={styles.header}>
-        <Image 
+        <img 
           src="/keith-profile.jpeg"
           alt="Keith Katale"
           width={120}
           height={120}
           className={styles.profilePhoto}
-          priority
         />
         <TypewriterName />
       </div>
