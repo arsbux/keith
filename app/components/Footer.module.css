@@ -13,14 +13,20 @@
 
 .links {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   justify-content: center;
   margin-bottom: 24px;
+  flex-wrap: wrap;
 }
 
 .links a {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--text-dim);
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--accent);
 }
 
 .bio {
